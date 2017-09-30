@@ -1,0 +1,59 @@
+.content {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #2f2d2d;
+  background-color: #fdfcfc;
+}
+
+.main {
+  flex: 3;
+  overflow-y: auto;
+  color: #2f2d2d;
+  background-image: url(wrenchcrop1.png);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  margin-top: 25px;
+}
+
+.main li {
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.main ul {
+  list-style-image: url("tinydaisyicon.gif");
+  font-weight: normal;
+  font-size: 12px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+
+.main a {
+  color: #83B7CE;
+  font-style: normal;
+  font-size: 12px;
+  cursor: crosshair;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  margin-left: 41px;
+  margin-right: 41px;
+  margin-bottom: 35px; 
+  font-size: 12px;
+}

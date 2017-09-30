@@ -1,0 +1,88 @@
+.content {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #2f2d2d;
+  background-color: #fdfcfc;
+}
+
+.main {
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex: 5;
+  overflow-y: auto;
+  color: #2f2d2d;
+}
+
+.main p {
+  text-align: justify;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.main .profile {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 15px; 
+}
+
+figure {
+  margin: 0px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.main a {
+  color: #83B7CE;
+  font-style: normal;
+  font-size: 12px;
+  cursor: crosshair;
+}
+
+#galaxy {
+  height: auto;
+  width: 600px;
+}
+
+#paper {
+  margin-top: 15px;
+  height: 40%;
+  width: 40%;
+}
+
+#hitchcock {
+  margin-top: 15px;
+  height: 40%;
+  width: 40%;
+}
+
+#strange {
+  margin-top: 15px;
+  height: 40%;
+  width: 40%;
+}
+
+#marvel {
+  margin-top: 15px;
+  height: 40%;
+  width: 40%;
+}

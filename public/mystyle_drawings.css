@@ -1,0 +1,31 @@
+.content {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  border: 1px solid #2f2d2d;
+  background-color: #fdfcfc;
+}
+
+.main a {
+  text-decoration: none;
+  cursor: crosshair;
+  width: 50%;
+}
+
+.main img {
+    margin: 10px;
+    border: 1px solid #d9c7c6;
+    cursor: crosshair;
+}
+
+p {
+  font-size: 12px;
+  margin-right: 30px; 
+}
+
+.main {
+  margin-top: 25px;
+  margin-left: 75px;
+  flex: 5;
+  color: #2f2d2d;
+}

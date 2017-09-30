@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>Alejandra Dean 488-OL Assignment 4</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="mystyle_adean.css">
+  <link rel="stylesheet" type="text/css" href="mystyle_dialogue.css">
+  <link href='https://fonts.googleapis.com/css?family=Karla:400,700,400italic' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="myscripts_adean.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="nav">
+        <nav>
+          <ul class='main-menu'>
+            <li><a href="index.html">home</a></li>
+            <li><a href="aboutme.html">about me</a>
+              <div class="sub-menu-container">
+                <ul class="sub-menu">
+                  <li><a id="subnav" href="aboutme.html">biography</a></li>
+                  <li><a id="subnav" href="reading_list.html">reading list</a></li>
+                  <li><a id="subnav" href="contact.html">contact info</a></li>
+                </ul>
+              </div>
+            </li>
+            </li>
+            <li>
+              <a href="harvard.html">education</a>
+              <div class="sub-menu-container">
+              <ul class="sub-menu">
+                  <li><a id="subnav" href="harvard.html">harvard</a></li>
+                  <li><a id="subnav" href="simmons.html">simmons</a></li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <a href="career.html">career</a>
+              <div class="sub-menu-container">
+              <ul class="sub-menu">
+                  <li><a id="subnav" href="career.html">resume</a></li>
+                  <li><a id="subnav" href="community.html">community service</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="technology.html">technology</a></li>
+            <li>
+              <a href="drawings.html">gallery</a>
+              <div class="sub-menu-container">
+              <ul class="sub-menu">
+                  <li><a id="subnav" href="drawings.html">drawings</a></li>
+                  <li><a id="subnav" href="photos.html">photographs</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="dialogue.html">dialogue</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+          <div class="commentbox">
+            <form id="contact-form" action='#' onsubmit="openEmail()">
+              <img src="computer.gif" alt="Computer Gif">
+              <input type="hidden" name="redirect" value="" />
+              <p><textarea name="comments" id="body" cols="25" rows="3">Make sure to include your name! :)</textarea></p>
+              <p><input type="submit" value="email me" /></p>
+            </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

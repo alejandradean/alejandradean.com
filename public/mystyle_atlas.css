@@ -1,0 +1,73 @@
+.content {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  align-items: stretch;
+  border: 1px solid #2f2d2d;
+  background-color: #fdfcfc;
+}
+
+.main {
+  padding-top: 15px;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex: 5;
+  overflow-y: auto;
+  color: #2f2d2d;
+}
+
+.main p {
+  text-align: justify;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.main .profile {
+  text-align: center;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.main a {
+  color: #83B7CE;
+  font-style: normal;
+  font-size: 12px;
+  cursor: crosshair;
+}
+
+#globe {
+  height: 40%;
+  width: 40%;
+  margin-left: 27px;
+}
+
+#wall {
+  height: 92%;
+  width: 92%;
+}
+
+#star {
+  height: 90%;
+  width: 90%;
+}
